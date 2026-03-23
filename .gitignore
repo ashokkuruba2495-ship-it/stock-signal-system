@@ -1,5 +1,5 @@
 # ── Python ────────────────────────────────────────────────────────────────────
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -10,28 +10,27 @@ build/
 *.spec
 
 # ── Virtual environment ───────────────────────────────────────────────────────
-venv/
-.venv/
+**/venv/
+**/.venv/
 env/
 ENV/
 
 # ── Environment variables (NEVER commit secrets) ──────────────────────────────
-.env
+**/.env
 *.env
 
 # ── ML models (large .pkl files — regen by running train_models.py) ──────────
-models/*.pkl
+**/*.pkl
 
 # ── Node / Frontend ───────────────────────────────────────────────────────────
-node_modules/
-FastAPI/frontend/node_modules/
-FastAPI/frontend/dist/
+**/node_modules/
+**/frontend/dist/
 
 # ── yfinance cache ────────────────────────────────────────────────────────────
 *.db
 *.sqlite
 *.sqlite3
-yfinance_tz_cache/
+**/yfinance_tz_cache/
 
 # ── IDE / OS ──────────────────────────────────────────────────────────────────
 .vscode/
@@ -41,3 +40,6 @@ Thumbs.db
 
 # ── Logs ──────────────────────────────────────────────────────────────────────
 *.log
+
+# ── Large / Temporary Files ───────────────────────────────────────────────────
+**/txt.txt
