@@ -39,11 +39,17 @@ warnings.filterwarnings("ignore")
 
 # ── Config ─────────────────────────────────────────────────────────────────────
 TOP_10_STOCKS = {
+    "RELIANCE":    "RELIANCE.NS",
+    "TCS":         "TCS.NS",
+    "HDFCBANK":    "HDFCBANK.NS",
+    "INFY":        "INFY.NS",
+    "ICICIBANK":   "ICICIBANK.NS",
+    "HINDUNILVR":  "HINDUNILVR.NS",
+    "ITC":         "ITC.NS",
     "SBIN":        "SBIN.NS",
     "BHARTIARTL":  "BHARTIARTL.NS",
     "KOTAKBANK":   "KOTAKBANK.NS",
 }
-
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "models")
 os.makedirs(MODELS_DIR, exist_ok=True)
 
